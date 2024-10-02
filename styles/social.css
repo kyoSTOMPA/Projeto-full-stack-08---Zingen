@@ -27,7 +27,7 @@ a.social {
   &[aria-label="twitter"] {
     --bg-img: url(../assets/icons/twitter.svg);
     
-    &:hover {
+    & :hover {
       --bg-img: url(../assets/icons/twitter-hover.svg);
     }
   }
@@ -35,7 +35,7 @@ a.social {
   &[aria-label="discord"] {
     --bg-img: url(../assets/icons/discord.svg);
     
-    &:hover {
+    & :hover {
       --bg-img: url(../assets/icons/discord-hover.svg);
     }
   }
